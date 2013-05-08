@@ -16,6 +16,15 @@
 		EF9426401733C4D30020B4BB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EF94263F1733C4D30020B4BB /* Default.png */; };
 		EF9426421733C4D30020B4BB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9426411733C4D30020B4BB /* Default@2x.png */; };
 		EF9426441733C4D30020B4BB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9426431733C4D30020B4BB /* Default-568h@2x.png */; };
+		EF94264D1733C5410020B4BB /* SearchPersonMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF94264B1733C5410020B4BB /* SearchPersonMainViewController.m */; };
+		EF94264E1733C5410020B4BB /* SearchPersonMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF94264C1733C5410020B4BB /* SearchPersonMainViewController.xib */; };
+		EF9426521733C5640020B4BB /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9426501733C5640020B4BB /* AboutViewController.m */; };
+		EF9426531733C5640020B4BB /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF9426511733C5640020B4BB /* AboutViewController.xib */; };
+		EF9426571733C5B50020B4BB /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9426551733C5B50020B4BB /* SearchViewController.m */; };
+		EF9426581733C5B50020B4BB /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF9426561733C5B50020B4BB /* SearchViewController.xib */; };
+		EF94265E1733EEB40020B4BB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF94265D1733EEB40020B4BB /* QuartzCore.framework */; };
+		EF997802173515CE0053258B /* AboutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF997800173515CD0053258B /* AboutsViewController.m */; };
+		EF997803173515CE0053258B /* AboutsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF997801173515CD0053258B /* AboutsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +41,19 @@
 		EF94263F1733C4D30020B4BB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		EF9426411733C4D30020B4BB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		EF9426431733C4D30020B4BB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EF94264A1733C5410020B4BB /* SearchPersonMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchPersonMainViewController.h; sourceTree = "<group>"; };
+		EF94264B1733C5410020B4BB /* SearchPersonMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchPersonMainViewController.m; sourceTree = "<group>"; };
+		EF94264C1733C5410020B4BB /* SearchPersonMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchPersonMainViewController.xib; sourceTree = "<group>"; };
+		EF94264F1733C5640020B4BB /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		EF9426501733C5640020B4BB /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		EF9426511733C5640020B4BB /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		EF9426541733C5B50020B4BB /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		EF9426551733C5B50020B4BB /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		EF9426561733C5B50020B4BB /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		EF94265D1733EEB40020B4BB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EF9977FF173515CD0053258B /* AboutsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutsViewController.h; sourceTree = "<group>"; };
+		EF997800173515CD0053258B /* AboutsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutsViewController.m; sourceTree = "<group>"; };
+		EF997801173515CD0053258B /* AboutsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF94265E1733EEB40020B4BB /* QuartzCore.framework in Frameworks */,
 				EF94262E1733C4D30020B4BB /* UIKit.framework in Frameworks */,
 				EF9426301733C4D30020B4BB /* Foundation.framework in Frameworks */,
 				EF9426321733C4D30020B4BB /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +74,7 @@
 		EF94261E1733C4D30020B4BB = {
 			isa = PBXGroup;
 			children = (
+				EF94265D1733EEB40020B4BB /* QuartzCore.framework */,
 				EF9426331733C4D30020B4BB /* SearchPerson33 */,
 				EF94262C1733C4D30020B4BB /* Frameworks */,
 				EF94262A1733C4D30020B4BB /* Products */,
@@ -80,6 +104,18 @@
 			children = (
 				EF94263C1733C4D30020B4BB /* AppDelegate.h */,
 				EF94263D1733C4D30020B4BB /* AppDelegate.m */,
+				EF94264A1733C5410020B4BB /* SearchPersonMainViewController.h */,
+				EF94264B1733C5410020B4BB /* SearchPersonMainViewController.m */,
+				EF94264C1733C5410020B4BB /* SearchPersonMainViewController.xib */,
+				EF9977FF173515CD0053258B /* AboutsViewController.h */,
+				EF997800173515CD0053258B /* AboutsViewController.m */,
+				EF997801173515CD0053258B /* AboutsViewController.xib */,
+				EF94264F1733C5640020B4BB /* AboutViewController.h */,
+				EF9426501733C5640020B4BB /* AboutViewController.m */,
+				EF9426511733C5640020B4BB /* AboutViewController.xib */,
+				EF9426541733C5B50020B4BB /* SearchViewController.h */,
+				EF9426551733C5B50020B4BB /* SearchViewController.m */,
+				EF9426561733C5B50020B4BB /* SearchViewController.xib */,
 				EF9426341733C4D30020B4BB /* Supporting Files */,
 			);
 			path = SearchPerson33;
@@ -154,6 +190,10 @@
 				EF9426401733C4D30020B4BB /* Default.png in Resources */,
 				EF9426421733C4D30020B4BB /* Default@2x.png in Resources */,
 				EF9426441733C4D30020B4BB /* Default-568h@2x.png in Resources */,
+				EF94264E1733C5410020B4BB /* SearchPersonMainViewController.xib in Resources */,
+				EF9426531733C5640020B4BB /* AboutViewController.xib in Resources */,
+				EF9426581733C5B50020B4BB /* SearchViewController.xib in Resources */,
+				EF997803173515CE0053258B /* AboutsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +206,10 @@
 			files = (
 				EF94263A1733C4D30020B4BB /* main.m in Sources */,
 				EF94263E1733C4D30020B4BB /* AppDelegate.m in Sources */,
+				EF94264D1733C5410020B4BB /* SearchPersonMainViewController.m in Sources */,
+				EF9426521733C5640020B4BB /* AboutViewController.m in Sources */,
+				EF9426571733C5B50020B4BB /* SearchViewController.m in Sources */,
+				EF997802173515CE0053258B /* AboutsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +317,7 @@
 				EF9426491733C4D30020B4BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
